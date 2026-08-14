@@ -31,3 +31,33 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+Daqui para baixo eh Tags e explicaçoes
+
+
+
+
+1. Configurações da Tabela (<table>)
+A tag <table ...> inicia a tabela e define a aparência dela: 
+•	border="1": Cria uma linha preta fina ao redor das células para separar as informações.
+•	cellpadding="10": Cria um espaço de respiro entre o texto e a borda da célula, evitando que tudo fique colado.
+•	style="width: 100%; ...": Faz a tabela ocupar toda a largura da tela (100%) e alinha os textos para a esquerda (left).
+2. O Cabeçalho (<thead> e <tr>)
+Esta é a barra cinza no topo da tabela que serve para identificar as colunas:
+•	<thead>: Indica que esta é a parte do topo (cabeçalho).
+•	tr style="background-color: #f2f2f2;": Cria a primeira linha (tr) e pinta o fundo de cinza claro (#f2f2f2).
+•	<th>: Define os títulos das colunas em negrito. O código cria três colunas: Imagem, Descrição e Valor. 
+•	
+3. O Conteúdo do Produto (<tbody>)
+Esta é a parte que exibe o produto real dentro do corpo (<tbody>) da tabela:
+•	<tr>: Abre uma nova linha para o primeiro produto.
+•	Primeiro <td> (Coluna da Imagem): Usa a tag <img> para buscar a foto do celular Motorola que está guardada na pasta img/SmartPhoneMotorola.webp. O código força a foto a ter o tamanho quadrado de 100x100 pixels.
+•	Segundo <td> (Coluna da Descrição): Exibe o nome do produto em negrito (<strong>) e pula uma linha (<br>) para mostrar o texto com os detalhes do produto.
+•	Terceiro <td> (Coluna do Valor): Mostra o preço final do produto (R$ 99,90).
+
